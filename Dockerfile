@@ -1,2 +1,2 @@
-FROM cockroachdb/cockroach:v24.2.1@sha256:8799b823e77b0739d132c8b2c1b9f2e3c81998732ed8cd812363598c4bec0c46
+FROM cockroachdb/cockroach:v25.1.4@sha256:0a2671147906da20d81e05df39af7eea8f0d3d1e57327d4285cc513613620703
 CMD ["start-single-node", "--insecure"]
